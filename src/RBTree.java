@@ -1,3 +1,4 @@
+import java.util.Collection;
 
 public class RBTree<Key extends Comparable<Key>, Val> {
     private Key key;
@@ -92,5 +93,9 @@ public class RBTree<Key extends Comparable<Key>, Val> {
 
     public void setValue(Val value) {
         this.value = value;
+    }
+
+    public Collection<Val> values() {
+        return null;
     }
 }

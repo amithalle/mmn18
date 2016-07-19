@@ -2,7 +2,7 @@
  * Created by amit on 18/07/16.
  */
 public class Library {
-    private final static int MAX_NUM_OF_BOOKS = 10;
+    public final static int MAX_NUM_OF_BOOKS = 10;
     private static Library instance;
     private RBTree<Long, Member> Members;
     private RBTree<String, Book> Books;
