@@ -8,6 +8,10 @@ public class RBTree<Key extends Comparable<Key>, Val> {
     private Val value;
 
 
+    public RBTree() {
+        this.setSize(0);
+        this.setColor(RBColor.Black);
+    }
     public RBTree(Key key, Val value, RBColor color, int size, RBTree<Key, Val> right, RBTree<Key, Val> left) {
         this.key = key;
         this.value = value;
